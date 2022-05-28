@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Yuji+Boku&display=swap');
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Yuji Boku', serif;
+
+body{
+    margin: 0;
+
+}
+#container{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+
+}
+#container>div{
+    width: 80%;
+}
+
+#container>.shapka{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+
+}
+
+#container>.shapka>.logo{
+    display: grid;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#container>.shapka>.menu{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#container>.shapka>.menu>nav>a>button{
+    
+    width: 112px;
+    height: 34px;
+    background-color: #D6B7FC;
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 8px #D6B7FC;
+    margin-left: 30px;
+    font-weight: 300;
+}
+ 
+#container>.shapka>.logo>h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.lineaftershapka{
+    margin-top: -50px;
+    width: 150%;
+    margin-left: 0;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+#container>.firstpage{
+    background-image: url(img/cod1.png);
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 687px;
+    opacity: 1;
+}
+#container>.firstpage>.fotoshka{
+    width: 513px;
+    height: 684px;
+
+}
+
+#container>.firstpage>.fotoshka>a>img{
+    width: 85%;
+    height: 85%;
+    margin-top: 20%;
+}
+
+hr{
+    height: 1px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#container>.twopage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+
+#container>.twopage>div>div{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: 11px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>.twopage>div>div>img{
+
+    width: 70%;
+    height: 70%;
+}
+
+#container>.twopage>div>p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#container>.twopage>div>div:hover{
+    background: #D6B7FC;
+}
+
+#container>.twopage>span>a>p{
+    font-weight: 600;
+    font-size: 32px;
+    text-shadow: 3px 3px 4px #D6B7FC, 0 0 2em #7300ff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #ffffff;
+    margin: 10px;
+}
+
+#container>.twopage>span>a{
+    text-decoration: none;
+}
+
+#container>.twopage>span{
+    width: 100%;
+}
+
+#container>.treepage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+
+#container>.treepage>div>div{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: 11px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>.treepage>div>div>img{
+
+    width: 90%;
+    height: 90%;
+}
+
+#container>.treepage>div>.stikblock2>img{
+    width: 200px;
+    height: 150px;
+}
+
+#container>.treepage>div>.stikblock3>img{
+    width: 150px;
+    height: 200px;
+}
+
+#container>.treepage>div>p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#container>.treepage>div>div:hover{
+    background: #D6B7FC;
+}
+
+#container>.treepage>span>a>p{
+    font-weight: 600;
+    font-size: 32px;
+    text-shadow: 3px 3px 4px #D6B7FC, 0 0 2em #7300ff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #ffffff;
+    margin: 10px;
+}
+
+#container>.treepage>span>a{
+    text-decoration: none;
+}
+
+#container>.treepage>span{
+    width: 100%;
+}
+
+#container>.twopage>div>.DOStblock3>p{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#container>.cats{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+
+#container>.cats>div{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 11px;
+
+}
+
+#container>.cats>div>img{
+    border-radius: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#container>.cats>div:hover{
+    background: #D6B7FC;
+}
+
+#container>.cats>span>a>p{
+    font-weight: 600;
+    font-size: 32px;
+    text-shadow: 3px 3px 4px #D6B7FC, 0 0 2em #7300ff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #ffffff;
+    margin: 10px;
+}
+
+#container>.cats>span>a{
+    text-decoration: none;
+}
+
+#container>.cats>span{
+    width: 100%;
+}
+
+
+#container>.contact{
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    background: #D6B7FC;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#container>.contact>.icons>a>img{
+    width: 70%;
+    height: 70%;
+}
+
+#container>.contact>p{
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: left;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+#container>.contact>.icons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.instagram{
+    margin-right: 15px;
+}
+
+@media (max-width: 1180px) {
+    #container>.shapka{
+        height: 90px;
+    }
+    #container>.shapka>.menu>nav>a>button{
+        width: 95px;
+        height: 30px;
+        background-color: #D6B7FC;
+        color: #000000;
+        border: none;
+        border-radius: 14px;
+        box-shadow: 0px 2px 5px #D6B7FC;
+        margin-bottom: 5px;
+        font-weight: 300;
+        font-size: 11px;
+
+    }
+}
+
+
+@media (max-width: 780px) {
+
+    #container>div{
+        width: 95%;
+    }
+
+    #container>.shapka{
+        height: 100px;
+        width: 100%;
+
+    }
+    
+    
+    #container>.shapka>.menu>nav>a>button{
+        width: 80px;
+        height: 30px;
+        background-color: #D6B7FC;
+        color: #000000;
+        border: none;
+        border-radius: 14px;
+        box-shadow: 0px 4px 8px #D6B7FC;
+ 
+        font-weight: 300;
+        font-size: 11px;
+
+    }
+
+    #container>.contact{
+        margin: auto;
+        width: 80%;
+        height: 70px;
+        background: #D6B7FC;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    #container>.contact>p{
+        font-size: 22px;
+    }
+
+    #container>.contact>.icons>a>img{
+        width: 60%;
+        height: 60%;
+        margin: auto;
+    }
+
+    #container>.contact>.icons{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        margin-left: 25px;
+    }
+    /* #container>.firstpage>.fotoshka>img{
+        width: 600;
+        height: 492px;
+
+    }  */
+}
+
+@media (max-width: 500px) {
+    #container{
+        margin-left: 10px;
+        width: 360px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 340px;
+    }
+    #container>.shapka{
+        height: 230px;
+        width: 380px;
+        display: grid;
+        align-items: start;
+    }
+    #container>.shapka>.menu{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -50px;
+        margin-left: -10px;
+    }
+    #container>.shapka>.logo{
+        margin-top: -10px;
+    }
+    #container>.firstpage{
+
+        height: 580px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    #container>.firstpage>.fotoshka>a>img{
+        width: 369px;
+        height: 492px;
+        margin-top: 110px;
+        margin-left: 30px;
+    }    
+    .lineforfirst{
+        width: 330px;
+        margin-top: -21px;
+        margin-left: 11px;
+    }
+    #container>.shapka>.menu>nav>a>button{
+        width: 100px;
+        height: 33px;
+        background-color: #D6B7FC;
+        color: #000000;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 3px 7px #D6B7FC;
+        
+        font-weight: 300;
+        font-size: 11px;
+        margin-right: -25px;
+    }
+
+    #container>.contact{
+        margin: auto;
+        width: 80%;
+        height: 70px;
+        background: #D6B7FC;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    #container>.contact>p{
+        font-size: 21px;
+    }
+
+    #container>.contact>.icons>a>img{
+        width: 60%;
+        height: 60%;
+        margin: auto;
+    }
+
+    #container>.contact>.icons{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: 5px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    #container>.contact>.icons>a>.inst{
+        width: 140%;
+        height: 140%;
+        margin-right: -7px;
+    }
+    #container>.contact>.icons>a>.git{
+        width: 125%;
+        height: 125%;
+    }
+    #container>.contact>.icons>a>.telega{
+        width: 120%;
+        height: 120%;
+    }
+    .lineaftershapka{
+        margin-top: -50px;
+        width: 100%;
+        margin-left: 0;
+        height: 1px;
+        background-color: #ffffff;
+    }
+    
+}
+    /* #container>.contact>.icons>a>.inst{
+        width: 30px;
+        height: 30px;
+        margin-right: -7px;
+    }
+    #container>.contact>.icons>a>.git{
+        width: 48px;
+        height: 48px;
+    }
+    #container>.contact>.icons>a>.telega{
+        width: 35px;
+        height: 35px;
+    } */
